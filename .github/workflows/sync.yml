@@ -33,6 +33,7 @@ jobs:
           echo "Secret length received: ${#CME_APP_DATA_JSON} characters"
           echo "File size after write: $(wc -c < "$CONFIG_PATH") bytes"
           grep -o '"https://cqt-s14.atlassian.net[^"]*"' "$CONFIG_PATH" || echo "NO bare-domain URL found in file"
+          python3 -c "import json; json.load(open('$CONFIG_PATH')); print('CI FILE: VALID JSON')"
 
       - name: Export CQTS14 space to Markdown
         env:
