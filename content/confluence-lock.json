@@ -1,0 +1,339 @@
+{
+  "lockfile_version": 2,
+  "last_export": "2026-09-03T09:14:13.244797+00:00",
+  "orgs": {
+    "https://cqt-s14.atlassian.net": {
+      "spaces": {
+        "CQTS14": {
+          "pages": {
+            "1015823": {
+              "title": "07/04/2026",
+              "version": 8,
+              "export_path": "CQT-S14/CQT-S14/Meetings/07_04_2026.md",
+              "attachments": {}
+            },
+            "11239430": {
+              "title": "27/04/2026",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Meetings/27_04_2026.md",
+              "attachments": {}
+            },
+            "1343489": {
+              "title": "13/04/2026",
+              "version": 34,
+              "export_path": "CQT-S14/CQT-S14/Meetings/13_04_2026.md",
+              "attachments": {}
+            },
+            "1409025": {
+              "title": "Github Mantainance",
+              "version": 5,
+              "export_path": "CQT-S14/CQT-S14/Ways of Working (Devs)/Github Mantainance.md",
+              "attachments": {}
+            },
+            "1540097": {
+              "title": "GitHub Structure",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Ways of Working (Devs)/GitHub Structure.md",
+              "attachments": {}
+            },
+            "164366": {
+              "title": "Environment variables",
+              "version": 7,
+              "export_path": "CQT-S14/CQT-S14/Security/Environment variables.md",
+              "attachments": {}
+            },
+            "164420": {
+              "title": "Rotating Data Base API Token",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Security/Rotating Data Base API Token.md",
+              "attachments": {}
+            },
+            "164443": {
+              "title": "Benchmarking Pipeline",
+              "version": 3,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Benchmarking Pipeline.md",
+              "attachments": {}
+            },
+            "164451": {
+              "title": "2nd Part: AWS",
+              "version": 12,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Benchmarking Pipeline/2nd Part_ AWS.md",
+              "attachments": {
+                "att4423754": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/0b1ca702-d17e-4da5-b735-dcab2e9b50b6.png"
+                }
+              }
+            },
+            "164503": {
+              "title": "Security",
+              "version": 3,
+              "export_path": "CQT-S14/CQT-S14/Security.md",
+              "attachments": {}
+            },
+            "164527": {
+              "title": "Ways of Working (Devs)",
+              "version": 10,
+              "export_path": "CQT-S14/CQT-S14/Ways of Working (Devs).md",
+              "attachments": {}
+            },
+            "164809": {
+              "title": "Lab Projects",
+              "version": 11,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects.md",
+              "attachments": {}
+            },
+            "164871": {
+              "title": "Getting Started",
+              "version": 9,
+              "export_path": "CQT-S14/CQT-S14/Ways of Working (Devs)/Getting Started.md",
+              "attachments": {}
+            },
+            "165060": {
+              "title": "Team",
+              "version": 10,
+              "export_path": "CQT-S14/CQT-S14/Team.md",
+              "attachments": {}
+            },
+            "30375937": {
+              "title": "20/07/2026",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Meetings/20_07_2026.md",
+              "attachments": {}
+            },
+            "32276481": {
+              "title": "27/07/2026",
+              "version": 4,
+              "export_path": "CQT-S14/CQT-S14/Meetings/27_07_2026.md",
+              "attachments": {
+                "att32178180": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/7c48561c-ee54-4b27-8480-aa2df79d4524.pptx"
+                }
+              }
+            },
+            "34275330": {
+              "title": "03/08/2026",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Meetings/03_08_2026.md",
+              "attachments": {
+                "att35487747": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/8c0932e4-5cf0-499b-b9ad-a7e40f78eab0.pptx"
+                }
+              }
+            },
+            "35192833": {
+              "title": "17/08/2026",
+              "version": 17,
+              "export_path": "CQT-S14/CQT-S14/Meetings/17_08_2026.md",
+              "attachments": {
+                "att38469680": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/79609f17-dd81-4bd5-ae8b-e33f4afddb06.pptx"
+                },
+                "att38404104": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/ef64837d-5dd1-458b-8adb-b94c498359f8.pdf"
+                }
+              }
+            },
+            "39550977": {
+              "title": "Access nqch server (new users)",
+              "version": 5,
+              "export_path": "CQT-S14/CQT-S14/Infra/Servers/Access nqch server (new users).md",
+              "attachments": {}
+            },
+            "40763393": {
+              "title": "24/08/2026",
+              "version": 5,
+              "export_path": "CQT-S14/CQT-S14/Meetings/24_08_2026.md",
+              "attachments": {
+                "att40861723": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/05dc51a2-c5f7-48ef-9bcd-8404afc801d6.pptx"
+                },
+                "att40763409": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/be002816-0321-4b40-8fa9-27b0459a15a5.pdf"
+                }
+              }
+            },
+            "41910273": {
+              "title": "31/08/2026",
+              "version": 6,
+              "export_path": "CQT-S14/CQT-S14/Meetings/31_08_2026.md",
+              "attachments": {
+                "att42598402": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/db1b4834-61c6-437c-ae4d-8008478e4aec.pptx"
+                },
+                "att41910296": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/bef22dd3-ce03-4fe6-9868-932e2ecfd227.pdf"
+                }
+              }
+            },
+            "42270724": {
+              "title": "07/09/2026",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Meetings/07_09_2026.md",
+              "attachments": {
+                "att42270738": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/5a8f2886-912f-4641-8479-8a4364e8f921.pdf"
+                }
+              }
+            },
+            "426581": {
+              "title": "Servers",
+              "version": 4,
+              "export_path": "CQT-S14/CQT-S14/Infra/Servers.md",
+              "attachments": {}
+            },
+            "4718649": {
+              "title": "Troubleshooting Benchmarking Pipeline",
+              "version": 3,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Benchmarking Pipeline/Troubleshooting Benchmarking Pipeline.md",
+              "attachments": {}
+            },
+            "4718718": {
+              "title": "Benchmarking user on cqt-ale-server",
+              "version": 3,
+              "export_path": "CQT-S14/CQT-S14/Infra/Benchmarking user on cqt-ale-server.md",
+              "attachments": {}
+            },
+            "4718731": {
+              "title": "AWS",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Infra/AWS.md",
+              "attachments": {}
+            },
+            "4784340": {
+              "title": "13/04/2026 (HW team slides)",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Meetings/13_04_2026/13_04_2026 (HW team slides).md",
+              "attachments": {
+                "att4423937": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/d82872fb-ce89-470e-9324-27fee712d92e.png"
+                },
+                "att5308447": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/7880cacb-3a75-4173-b50e-a93ee6ed9bc1.png"
+                }
+              }
+            },
+            "4947970": {
+              "title": "20/04/2026",
+              "version": 7,
+              "export_path": "CQT-S14/CQT-S14/Meetings/20_04_2026.md",
+              "attachments": {}
+            },
+            "5374010": {
+              "title": "Paul DB linked to Grafana",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Infra/Paul DB linked to Grafana.md",
+              "attachments": {}
+            },
+            "5668865": {
+              "title": "Calibration",
+              "version": 4,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Calibration.md",
+              "attachments": {}
+            },
+            "65844": {
+              "title": "CQT-S14",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/CQT-S14.md",
+              "attachments": {}
+            },
+            "66109": {
+              "title": "Repos",
+              "version": 9,
+              "export_path": "CQT-S14/CQT-S14/Infra/Repos.md",
+              "attachments": {}
+            },
+            "66280": {
+              "title": "Infra",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Infra.md",
+              "attachments": {}
+            },
+            "66323": {
+              "title": "Troubleshooting workspace environment",
+              "version": 5,
+              "export_path": "CQT-S14/CQT-S14/Infra/Workspace Environment/Troubleshooting workspace environment.md",
+              "attachments": {}
+            },
+            "66382": {
+              "title": "Developers Guide",
+              "version": 9,
+              "export_path": "CQT-S14/CQT-S14/Ways of Working (Devs)/Developers Guide.md",
+              "attachments": {}
+            },
+            "66483": {
+              "title": "Workspace Environment",
+              "version": 6,
+              "export_path": "CQT-S14/CQT-S14/Infra/Workspace Environment.md",
+              "attachments": {}
+            },
+            "66537": {
+              "title": "Important Rules",
+              "version": 9,
+              "export_path": "CQT-S14/CQT-S14/Ways of Working (Devs)/Important Rules.md",
+              "attachments": {}
+            },
+            "66624": {
+              "title": "AWS Data Base",
+              "version": 5,
+              "export_path": "CQT-S14/CQT-S14/Infra/AWS/AWS Data Base.md",
+              "attachments": {}
+            },
+            "983042": {
+              "title": "Meetings",
+              "version": 5,
+              "export_path": "CQT-S14/CQT-S14/Meetings.md",
+              "attachments": {}
+            },
+            "98977": {
+              "title": "Leaked credentials",
+              "version": 3,
+              "export_path": "CQT-S14/CQT-S14/Security/Leaked credentials.md",
+              "attachments": {}
+            },
+            "99016": {
+              "title": "1st Part: Nqch-deploy",
+              "version": 17,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Benchmarking Pipeline/1st Part_ Nqch-deploy.md",
+              "attachments": {
+                "att3375111": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/98f3b8ef-7770-48e1-a1d4-bade6c733824.png"
+                }
+              }
+            },
+            "99306": {
+              "title": "Summary",
+              "version": 3,
+              "export_path": "CQT-S14/CQT-S14/Ways of Working (Devs)/Summary.md",
+              "attachments": {}
+            },
+            "99352": {
+              "title": "Troubleshooting nqch server status",
+              "version": 4,
+              "export_path": "CQT-S14/CQT-S14/Infra/Servers/Troubleshooting nqch server status.md",
+              "attachments": {}
+            },
+            "99394": {
+              "title": "Incidents Tracker",
+              "version": 11,
+              "export_path": "CQT-S14/CQT-S14/Infra/Incidents Tracker.md",
+              "attachments": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
