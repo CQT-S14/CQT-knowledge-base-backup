@@ -2,11 +2,11 @@ name: Sync Confluence to Markdown
 
 on:
   schedule:
-    - cron: '0 3 * * 1'   # every Monday, 03:00 UTC — tighten later if you want
-  workflow_dispatch: {}    # lets you trigger a manual test run from the Actions tab
+    - cron: '0 3 * * 1'
+  workflow_dispatch: {}
 
 permissions:
-  contents: write          # required so this workflow can push commits back
+  contents: write
 
 jobs:
   sync:
@@ -18,8 +18,6 @@ jobs:
       - name: Install confluence-markdown-exporter
         run: |
           curl -LsSf uvx.sh/confluence-markdown-exporter/install.sh | sh
-          # Don't assume where the installer put the binary — find it for real,
-          # then make it visible to every later step in this job.
           CME_PATH="$(command -v cme || find "$HOME" -name cme -type f 2>/dev/null | head -n1)"
           echo "Found cme at: $CME_PATH"
           dirname "$CME_PATH" >> "$GITHUB_PATH"
@@ -28,8 +26,10 @@ jobs:
         env:
           CME_APP_DATA_JSON: ${{ secrets.CME_APP_DATA_JSON }}
         run: |
-          mkdir -p ~/.config/confluence-markdown-exporter
-          printf '%s' "$CME_APP_DATA_JSON" > ~/.config/confluence-markdown-exporter/app_data.json
+          CONFIG_PATH="$(cme config path)"
+          echo "cme expects its config at: $CONFIG_PATH"
+          mkdir -p "$(dirname "$CONFIG_PATH")"
+          printf '%s' "$CME_APP_DATA_JSON" > "$CONFIG_PATH"
 
       - name: Export CQTS14 space to Markdown
         env:
