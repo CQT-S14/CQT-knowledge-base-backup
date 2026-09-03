@@ -84,7 +84,13 @@ To be confirmed as testing continues — some newer Confluence content types
 the [exporter's current feature list](https://github.com/Spenhouet/confluence-markdown-exporter)
 and update this section once verified against this space's actual content.
 
-# Command to manually generate a pull from Conflu and regenerate markdown backup 
+# Command to manually generate a pull from Conflu and regenerate markdown tree backup 
 ```
 cme spaces https://cqt-s14.atlassian.net/wiki/spaces/CQTS14
 ```
+
+# Github pages address
+```
+https://cqt-s14.github.io/CQT-knowledge-base-backup/CQT-S14/CQT-S14/CQT-S14/
+```
+
