@@ -1,4 +1,5 @@
 site_name: CQT-S14 Knowledge Base
+site_url: https://cqt-s14.github.io/CQT-knowledge-base-backup/
 docs_dir: content
 
 theme:
