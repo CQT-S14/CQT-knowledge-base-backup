@@ -83,3 +83,8 @@ To be confirmed as testing continues — some newer Confluence content types
 (e.g. whiteboards, databases) may not be supported by the exporter. Check
 the [exporter's current feature list](https://github.com/Spenhouet/confluence-markdown-exporter)
 and update this section once verified against this space's actual content.
+
+# Command to manually generate a pull from Conflu and regenerate markdown backup 
+```
+cme spaces https://cqt-s14.atlassian.net/wiki/spaces/CQTS14
+```
