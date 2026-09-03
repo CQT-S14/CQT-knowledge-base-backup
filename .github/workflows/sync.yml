@@ -30,6 +30,9 @@ jobs:
           echo "cme expects its config at: $CONFIG_PATH"
           mkdir -p "$(dirname "$CONFIG_PATH")"
           printf '%s' "$CME_APP_DATA_JSON" > "$CONFIG_PATH"
+          echo "Secret length received: ${#CME_APP_DATA_JSON} characters"
+          echo "File size after write: $(wc -c < "$CONFIG_PATH") bytes"
+          grep -o '"https://cqt-s14.atlassian.net[^"]*"' "$CONFIG_PATH" || echo "NO bare-domain URL found in file"
 
       - name: Export CQTS14 space to Markdown
         env:
