@@ -1,0 +1,49 @@
+name: Sync Confluence to Markdown
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # every Monday, 03:00 UTC — tighten later if you want
+  workflow_dispatch: {}    # lets you trigger a manual test run from the Actions tab
+
+permissions:
+  contents: write          # required so this workflow can push commits back
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Install confluence-markdown-exporter
+        run: |
+          curl -LsSf uvx.sh/confluence-markdown-exporter/install.sh | sh
+          # Don't assume where the installer put the binary — find it for real,
+          # then make it visible to every later step in this job.
+          CME_PATH="$(command -v cme || find "$HOME" -name cme -type f 2>/dev/null | head -n1)"
+          echo "Found cme at: $CME_PATH"
+          dirname "$CME_PATH" >> "$GITHUB_PATH"
+
+      - name: Restore Confluence credentials
+        env:
+          CME_APP_DATA_JSON: ${{ secrets.CME_APP_DATA_JSON }}
+        run: |
+          mkdir -p ~/.config/confluence-markdown-exporter
+          printf '%s' "$CME_APP_DATA_JSON" > ~/.config/confluence-markdown-exporter/app_data.json
+
+      - name: Export CQTS14 space to Markdown
+        env:
+          CME_EXPORT__OUTPUT_PATH: ./content
+        run: cme spaces https://cqt-s14.atlassian.net/wiki/spaces/CQTS14
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "chore: sync confluence content $(date -u +%Y-%m-%d)"
+            git push
+          fi
