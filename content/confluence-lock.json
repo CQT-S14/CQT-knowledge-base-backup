@@ -1,6 +1,6 @@
 {
   "lockfile_version": 2,
-  "last_export": "2026-09-03T09:14:13.244797+00:00",
+  "last_export": "2026-09-07T16:46:15.606562+00:00",
   "orgs": {
     "https://cqt-s14.atlassian.net": {
       "spaces": {
@@ -176,7 +176,7 @@
             },
             "42270724": {
               "title": "07/09/2026",
-              "version": 1,
+              "version": 5,
               "export_path": "CQT-S14/CQT-S14/Meetings/07_09_2026.md",
               "attachments": {
                 "att42270738": {
@@ -190,6 +190,17 @@
               "version": 4,
               "export_path": "CQT-S14/CQT-S14/Infra/Servers.md",
               "attachments": {}
+            },
+            "44793857": {
+              "title": "147/09/2026",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Meetings/147_09_2026.md",
+              "attachments": {
+                "att44793872": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/1751a54b-180c-42ee-ab4b-1eae65984acc.pdf"
+                }
+              }
             },
             "4718649": {
               "title": "Troubleshooting Benchmarking Pipeline",
