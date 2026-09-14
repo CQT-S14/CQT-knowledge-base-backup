@@ -1,6 +1,6 @@
 {
   "lockfile_version": 2,
-  "last_export": "2026-09-07T16:46:15.606562+00:00",
+  "last_export": "2026-09-14T17:10:20.992592+00:00",
   "orgs": {
     "https://cqt-s14.atlassian.net": {
       "spaces": {
@@ -192,13 +192,24 @@
               "attachments": {}
             },
             "44793857": {
-              "title": "147/09/2026",
-              "version": 1,
-              "export_path": "CQT-S14/CQT-S14/Meetings/147_09_2026.md",
+              "title": "14/09/2026",
+              "version": 6,
+              "export_path": "CQT-S14/CQT-S14/Meetings/14_09_2026.md",
               "attachments": {
                 "att44793872": {
                   "version": 1,
                   "path": "CQT-S14/attachments/1751a54b-180c-42ee-ab4b-1eae65984acc.pdf"
+                }
+              }
+            },
+            "46792712": {
+              "title": "21/08/2026",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Meetings/21_08_2026.md",
+              "attachments": {
+                "att46759957": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/c1b8a6d7-91d8-48e5-9614-7af3a4748644.pdf"
                 }
               }
             },
