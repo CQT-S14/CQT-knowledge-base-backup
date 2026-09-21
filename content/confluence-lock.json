@@ -1,6 +1,6 @@
 {
   "lockfile_version": 2,
-  "last_export": "2026-09-14T17:10:20.992592+00:00",
+  "last_export": "2026-09-21T17:19:09.316385+00:00",
   "orgs": {
     "https://cqt-s14.atlassian.net": {
       "spaces": {
@@ -193,9 +193,13 @@
             },
             "44793857": {
               "title": "14/09/2026",
-              "version": 6,
+              "version": 8,
               "export_path": "CQT-S14/CQT-S14/Meetings/14_09_2026.md",
               "attachments": {
+                "att47218689": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/c1033661-84d6-4aee-b879-b836eee560ad.pptx"
+                },
                 "att44793872": {
                   "version": 1,
                   "path": "CQT-S14/attachments/1751a54b-180c-42ee-ab4b-1eae65984acc.pdf"
@@ -243,6 +247,27 @@
                 "att5308447": {
                   "version": 1,
                   "path": "CQT-S14/attachments/7880cacb-3a75-4173-b50e-a93ee6ed9bc1.png"
+                }
+              }
+            },
+            "48005121": {
+              "title": "Conditional Measurements",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Measurements.md",
+              "attachments": {}
+            },
+            "48594948": {
+              "title": "21/09/2026",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Meetings/21_09_2026.md",
+              "attachments": {
+                "att49152006": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/75cd0f6c-f692-4191-8135-aadbcab42d42.pptx"
+                },
+                "att48594972": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/0493e363-a0cb-4cdc-aaff-c3ead852d122.pdf"
                 }
               }
             },
