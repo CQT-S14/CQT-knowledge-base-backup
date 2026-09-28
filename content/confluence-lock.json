@@ -1,6 +1,6 @@
 {
   "lockfile_version": 2,
-  "last_export": "2026-09-21T17:19:09.316385+00:00",
+  "last_export": "2026-09-28T18:52:43.188160+00:00",
   "orgs": {
     "https://cqt-s14.atlassian.net": {
       "spaces": {
@@ -251,9 +251,9 @@
               }
             },
             "48005121": {
-              "title": "Conditional Measurements",
-              "version": 1,
-              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Measurements.md",
+              "title": "Conditional Operations",
+              "version": 4,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations.md",
               "attachments": {}
             },
             "48594948": {
@@ -276,6 +276,32 @@
               "version": 7,
               "export_path": "CQT-S14/CQT-S14/Meetings/20_04_2026.md",
               "attachments": {}
+            },
+            "49643527": {
+              "title": "Kick-off",
+              "version": 5,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/Kick-off.md",
+              "attachments": {
+                "att49643556": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/df57d2e2-0f4e-47b9-a79b-46799e9d011a.png"
+                },
+                "att49643537": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/c049a4de-c2de-48e1-a840-2e341858d5f1.txt"
+                }
+              }
+            },
+            "49676332": {
+              "title": "Documentation",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/Documentation.md",
+              "attachments": {
+                "att49577994": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/95fa0089-1d8f-4590-9830-be84621f3d83.png"
+                }
+              }
             },
             "5374010": {
               "title": "Paul DB linked to Grafana",
