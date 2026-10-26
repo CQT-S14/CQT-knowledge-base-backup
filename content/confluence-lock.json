@@ -1,6 +1,6 @@
 {
   "lockfile_version": 2,
-  "last_export": "2026-09-28T18:52:43.188160+00:00",
+  "last_export": "2026-10-26T17:47:56.028174+00:00",
   "orgs": {
     "https://cqt-s14.atlassian.net": {
       "spaces": {
@@ -309,11 +309,37 @@
               "export_path": "CQT-S14/CQT-S14/Infra/Paul DB linked to Grafana.md",
               "attachments": {}
             },
+            "56492033": {
+              "title": "19/10/2026",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Meetings/19_10_2026.md",
+              "attachments": {
+                "att56492050": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/3245f629-2e67-4b26-8190-ecdbfa6a8ba5.pdf"
+                }
+              }
+            },
             "5668865": {
               "title": "Calibration",
               "version": 4,
               "export_path": "CQT-S14/CQT-S14/Lab Projects/Calibration.md",
               "attachments": {}
+            },
+            "57180161": {
+              "title": "26/10/2026",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Meetings/26_10_2026.md",
+              "attachments": {
+                "att57311234": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/434f04a8-1f68-4227-9115-1387d0b67b13.pdf"
+                },
+                "att57180184": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/f4f89491-5b8a-4a54-af37-f6bec4d072b3.pdf"
+                }
+              }
             },
             "65844": {
               "title": "CQT-S14",
