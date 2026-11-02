@@ -1,6 +1,6 @@
 {
   "lockfile_version": 2,
-  "last_export": "2026-10-26T17:47:56.028174+00:00",
+  "last_export": "2026-11-02T20:57:57.991871+00:00",
   "orgs": {
     "https://cqt-s14.atlassian.net": {
       "spaces": {
@@ -278,9 +278,9 @@
               "attachments": {}
             },
             "49643527": {
-              "title": "Kick-off",
-              "version": 5,
-              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/Kick-off.md",
+              "title": "0. Kick-off",
+              "version": 7,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/0. Kick-off.md",
               "attachments": {
                 "att49643556": {
                   "version": 1,
@@ -293,9 +293,9 @@
               }
             },
             "49676332": {
-              "title": "Documentation",
-              "version": 2,
-              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/Documentation.md",
+              "title": "Preliminary Resources",
+              "version": 3,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/0. Kick-off/Preliminary Resources.md",
               "attachments": {
                 "att49577994": {
                   "version": 1,
@@ -328,9 +328,13 @@
             },
             "57180161": {
               "title": "26/10/2026",
-              "version": 2,
+              "version": 3,
               "export_path": "CQT-S14/CQT-S14/Meetings/26_10_2026.md",
               "attachments": {
+                "att59310081": {
+                  "version": 1,
+                  "path": "CQT-S14/attachments/e3fcfa71-e55b-40db-9512-35fa164d8195.pptx"
+                },
                 "att57311234": {
                   "version": 1,
                   "path": "CQT-S14/attachments/434f04a8-1f68-4227-9115-1387d0b67b13.pdf"
@@ -340,6 +344,42 @@
                   "path": "CQT-S14/attachments/f4f89491-5b8a-4a54-af37-f6bec4d072b3.pdf"
                 }
               }
+            },
+            "58294281": {
+              "title": "2. Sergi's Expansion",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/2. Sergi_s Expansion.md",
+              "attachments": {}
+            },
+            "58294322": {
+              "title": "5. GitHub Pages Documentation",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/5. GitHub Pages Documentation.md",
+              "attachments": {}
+            },
+            "58327045": {
+              "title": "1. Roman First Prototype",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/1. Roman First Prototype.md",
+              "attachments": {}
+            },
+            "58392617": {
+              "title": "6. Demos on NQCH",
+              "version": 1,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/6. Demos on NQCH.md",
+              "attachments": {}
+            },
+            "58458113": {
+              "title": "3. Elis API Design + Native Execution",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/3. Elis API Design + Native Execution.md",
+              "attachments": {}
+            },
+            "58458123": {
+              "title": "4. Elis First Hardware Runs",
+              "version": 2,
+              "export_path": "CQT-S14/CQT-S14/Lab Projects/Conditional Operations/4. Elis First Hardware Runs.md",
+              "attachments": {}
             },
             "65844": {
               "title": "CQT-S14",
